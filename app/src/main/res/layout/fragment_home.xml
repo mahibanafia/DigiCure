@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="@color/white"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/Scroll_Main_Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/logo_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal"
+                android:background="@drawable/linear_home_curve"
+                >
+                <ImageView
+
+                    android:layout_width="130dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/logo_home"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="15dp"
+                    />
+                <ImageView
+                    android:id="@+id/moonPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="45dp"
+                    android:src="@drawable/moon_pic"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/Nested_Top_Linear"
+                android:layout_width="320dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="-65dp"
+                android:background="@drawable/nested_linear_curve_bg"
+                android:orientation="horizontal"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/video_top_id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:src="@drawable/vidc_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Video Conference"
+                        android:textAlignment="center"
+                        android:textColor="@color/curve_color"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="2dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/medicine_top_id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/medicine_icon"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Medicines"
+                        android:textAlignment="center"
+                        android:textColor="@color/curve_color"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/diagnostic_top_id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/dnsi_icons"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="12dp"
+                        android:text="Diagnostic"
+                        android:textAlignment="center"
+                        android:textColor="@color/curve_color"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Talk_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/linear_round_shape"
+                android:elevation="3dp"
+                android:layout_margin="20dp"
+                >
+                <TextView
+                    android:id="@+id/Talk_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Talk with us"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:paddingTop="12dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/text_color"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/phone_call"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:id="@+id/mobileNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0961089679"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/text_color"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Home_Vector_Pic_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation= "vertical"
+                >
+
+                <ImageView
+                    android:layout_width="395dp"
+                    android:layout_height="280dp"
+                    android:layout_marginTop="-50dp"
+                    android:padding="15dp"
+                    android:src="@drawable/home_vec_pic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TopDoc_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:background="@drawable/linear_round_shape"
+                android:elevation="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+                <TextView
+                    android:id="@+id/TopDoc_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Top Doctors"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/text_color"
+                    />
+
+                <TextView
+                    android:id="@+id/see_all_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See All"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:paddingLeft="160dp"
+                    android:textColor="@color/curve_color"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

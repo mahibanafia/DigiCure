@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#00040D</color>
+    <color name="text_color">#F8F8F8</color>
+    <color name="curve_color">#019E44</color>
+    <color name="white_curve">#191919</color>
+    <color name="white">#191919</color>
+    <color name="switch_color">#019E44</color>
+    <color name="black_nev">#CDCDCD</color>
+    <color name="grays">#C5C5C5</color>
+
+
+
+</resources>

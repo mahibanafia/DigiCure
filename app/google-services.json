@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823812841885",
+    "firebase_url": "https://digicure-b4bb6-default-rtdb.firebaseio.com",
+    "project_id": "digicure-b4bb6",
+    "storage_bucket": "digicure-b4bb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823812841885:android:de103142eedb70f1ad0f74",
+        "android_client_info": {
+          "package_name": "com.remon.digicure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823812841885-p8tqbgq99mhfs13s13us0hcgle8i9jb7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.remon.digicure",
+            "certificate_hash": "0c53889defe6688336c8069185b42a8eb9c1c173"
+          }
+        },
+        {
+          "client_id": "823812841885-b38vdv3g62tvfkorqgjfstvpnf1a1d9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_p2cqhYaLpei5uxUossa1meYomX8PjkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823812841885-b38vdv3g62tvfkorqgjfstvpnf1a1d9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

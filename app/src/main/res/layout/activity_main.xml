@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/log_sign_pic"
+            android:paddingTop="35dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to DigiCure"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="57dp"
+            android:textColor="@color/text_color"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commit yourself to be healthy and fit."
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="50dp"
+            android:textColor="@color/text_color"
+            />
+
+      </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@drawable/linear_curve_background"
+      >
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/login1"
+          style="@android:style/Widget.Button"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:background="@drawable/background_btn"
+          android:layout_marginStart="32dp"
+          android:layout_marginEnd="32dp"
+          android:text="Login"
+          android:textColor="@color/white"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:layout_marginTop="70dp"
+          />
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Or"
+          android:fontFamily="sans-serif-black"
+          android:textSize="20sp"
+          android:textAlignment="center"
+          android:textStyle="bold"
+          android:textColor="@color/curve_color"
+          android:layout_marginTop="5dp"
+          />
+      <androidx.appcompat.widget.AppCompatButton
+          android:id="@+id/signUpM"
+          style="@android:style/Widget.Button"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          android:background="@drawable/background_btn"
+          android:layout_marginStart="32dp"
+          android:layout_marginEnd="32dp"
+          android:text="Sign Up"
+          android:textColor="@color/white"
+          android:textSize="18sp"
+          android:textStyle="bold"
+          android:layout_marginTop="10dp"
+          />
+
+  </LinearLayout>
+
+</LinearLayout>

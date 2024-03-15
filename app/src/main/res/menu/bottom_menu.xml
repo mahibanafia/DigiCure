@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nev_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nev_doctor"
+        android:icon="@drawable/ic_baseline_doctor_24"
+        android:title="Doctor" />
+    <item
+        android:id="@+id/nev_mdicine"
+        android:icon="@drawable/ic_baseline_medicine_24"
+        android:title="Medicine" />
+    <item
+        android:id="@+id/nev_diagnostic"
+        android:icon="@drawable/ic_baseline_monitor_heart_24"
+        android:title="Diagnostic" />
+</menu>
